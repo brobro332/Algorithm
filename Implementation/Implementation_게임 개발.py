@@ -60,6 +60,7 @@ while True :
         else :
             break
         t = 0
+        
 print(cnt)
 end_time = time.time()
 print("time :", start_time - end_time)
