@@ -13,8 +13,8 @@ for i in range(n) :
     array.append(list(map(int, input())))
 
 import time
-start_time = time.time
-
+start_time = time.time()
+    
 def dfs(x, y) :
     if x < 0 or x >= n or y < 0 or y >= m :
         return False
@@ -34,3 +34,6 @@ for i in range(n) :
         if dfs(i, j) == True :
             result += 1
 print(result)
+end_time = time.time()
+print("time:", end_time - start_time)
+print()
