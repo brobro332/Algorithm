@@ -14,8 +14,6 @@
 
 ## 한 칸 뒤로 가고 1단계로 돌아간다. 이 때 뒤 쪽 방향이 바다라면 움직임을 멈춘다.
 
-aa
-
 n, m = map(int, input().split())
 a, b, d = map(int, input().split())
 
