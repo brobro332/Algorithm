@@ -7,12 +7,12 @@
 array = []
 n = int(input())
 
-import time
-start_time = time.time()
-
 for i in range(n) :
     array.append(int(input()))
 
+import time
+start_time = time.time()    
+    
 array = sorted(array, reverse=True)
 
 for i in range(len(array)) : 
